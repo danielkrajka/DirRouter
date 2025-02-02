@@ -45,3 +45,6 @@ You can apply attributes (e.g. `[Authorize]`) to the `Endpoints.cs` class, and i
 
 ## Why?
 I like collocation of code, a directory based router which automatically creates the URLs just makes sense to me.
+
+###
+License MIT

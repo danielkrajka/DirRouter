@@ -3,6 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <IsPackable>true</IsPackable>
+        <PackageType>Analyzer</PackageType>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
 
@@ -11,15 +12,20 @@
 
         <RootNamespace>DirRouter</RootNamespace>
         <PackageId>DirRouter</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Authors>Daniel Krajka</Authors>
         <Description>Directory based routing</Description>
         <PackageTags>dir router, router</PackageTags>
         <IncludeSymbols>true</IncludeSymbols>
         <IncludeSource>true</IncludeSource>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/danielkrajka/DirRouter</PackageProjectUrl>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    </ItemGroup>
+    
     <ItemGroup>
         <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0">
             <PrivateAssets>all</PrivateAssets>

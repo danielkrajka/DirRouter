@@ -8,7 +8,7 @@ public class Endpoints(IConfiguration config)
     public async Task<IResult> Get()
     {
         await Task.CompletedTask;
-        return Results.Ok("Get");
+        return Results.Ok("ROOT Get");
     }
     
     public async Task<IResult> Post([FromBody] object request)

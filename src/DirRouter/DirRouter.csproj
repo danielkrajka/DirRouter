@@ -11,6 +11,13 @@
 
         <RootNamespace>DirRouter</RootNamespace>
         <PackageId>DirRouter</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Daniel Krajka</Authors>
+        <Description>Directory based routing</Description>
+        <PackageTags>dir router, router</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <IncludeSource>true</IncludeSource>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>

@@ -3,7 +3,6 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <IsPackable>true</IsPackable>
-        <PackageType>Analyzer</PackageType>
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
 
@@ -12,7 +11,7 @@
 
         <RootNamespace>DirRouter</RootNamespace>
         <PackageId>DirRouter</PackageId>
-        <Version>0.0.2</Version>
+        <Version>0.0.3</Version>
         <Authors>Daniel Krajka</Authors>
         <Description>Directory based routing</Description>
         <PackageTags>dir router, router</PackageTags>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirRouter", "src\DirRouter\DirRouter.csproj", "{0D69F1DD-46AC-4331-9112-34CD116A6A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirRouter.Tests", "src\DirRouter.Tests\DirRouter.Tests.csproj", "{8FC2FC18-2E1B-4D9D-BF85-1F8C284D0A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirRouter.Sample.Web", "src\DirRouter.Sample.Web\DirRouter.Sample.Web.csproj", "{B9444DE6-DB9A-437F-95EA-BA4AB6A027CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D69F1DD-46AC-4331-9112-34CD116A6A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D69F1DD-46AC-4331-9112-34CD116A6A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D69F1DD-46AC-4331-9112-34CD116A6A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D69F1DD-46AC-4331-9112-34CD116A6A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC2FC18-2E1B-4D9D-BF85-1F8C284D0A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC2FC18-2E1B-4D9D-BF85-1F8C284D0A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC2FC18-2E1B-4D9D-BF85-1F8C284D0A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC2FC18-2E1B-4D9D-BF85-1F8C284D0A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9444DE6-DB9A-437F-95EA-BA4AB6A027CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9444DE6-DB9A-437F-95EA-BA4AB6A027CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9444DE6-DB9A-437F-95EA-BA4AB6A027CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9444DE6-DB9A-437F-95EA-BA4AB6A027CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

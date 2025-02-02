@@ -1,0 +1,6 @@
+@DirRouter.Web_HostAddress = http://localhost:5084
+
+GET {{DirRouter.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
